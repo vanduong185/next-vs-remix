@@ -9,6 +9,9 @@ export default function Button({
   return (
     <button
       className="px-3 py-2 rounded-md bg-primary font-semibold text-white uppercase"
+      onClick={() => {
+        console.log("asd");
+      }}
       {...rest}
     >
       {children}
