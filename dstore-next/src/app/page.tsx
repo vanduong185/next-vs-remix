@@ -6,6 +6,6 @@ export const metadata = {
 };
 
 export default async function Home() {
-  await doSthInSec(1);
+  await doSthInSec(2);
   return <div>Home</div>;
 }
